@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-cream: #FFFDF5;
+    --color-yellow-soft: #F9E8B2;
+    --color-yellow-brand: #E5AC26;
+    --color-yellow-gold: #D49B19;
+    --color-gold-dark: #A3750C;
+    --color-gold-light: #FBE69B;
+    --color-dark: #1A1610;
+  }
+
+  body {
+    background-color: #FFFDF5;
+    color: #1A1610;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  h1, h2, h3, h4, .font-serif-luxury {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #F9E8B2;
+}
+::-webkit-scrollbar-thumb {
+  background: #E5AC26;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D49B19;
+}
+
+/* Custom delicate dotted leaders for luxury menu */
+.menu-dots {
+  background-image: radial-gradient(circle, #E5AC26 1px, transparent 1.5px);
+  background-position: bottom;
+  background-size: 10px 2px;
+  background-repeat: repeat-x;
+}
+
+/* Golden subtle glow effect */
+.gold-glow {
+  box-shadow: 0 0 25px rgba(229, 172, 38, 0.25);
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #FFFDF5 0%, #F9E8B2 50%, #F3D377 100%);
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "OR - Atelier culinaire",
+  "description": "High-end gastronomy and luxury dining experience by Chef Rabah Ourrad in El Biar, Alger.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
